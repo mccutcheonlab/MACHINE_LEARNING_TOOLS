@@ -1,0 +1,53 @@
+{
+    "researcherName": "MiniCam User",
+    "dataDirectory": "C:/Documents/APT 2A/Stage 2A/MiniCam/Recordedvideos",
+    "reserved terms for directoryStructure": ["time", "date"],
+    "directoryStructure": [
+        "researcherName",
+        "experimentName",
+        "animalName",
+        "testSlot",
+        "date",
+        "time"
+    ],
+    "animalName": "testMouse",
+    "testSlot": "Session1",
+    "experimentName": "Experiment1",
+    "recordLengthinSeconds": 10,
+    "experiment_Not_Implemented": {
+        "type": "linearTrack",
+        "units": "cm",
+        "trackLength": 200
+    },
+    "behaviorTracker_Not_Implemented": {
+        "type": "HSV",
+        "hue": [0, 1],
+        "saturation": [0, 1],
+        "value": [0, 1]
+    },
+    "devices": {
+       "cameras": [
+            {
+                "deviceName": "MiniCam",
+                "deviceType": "Minicam-Mono-XGA",
+                "deviceID": 0,
+				"showSaturation": false,
+				"ROI": {
+                    "notes": "This defines the bounding box of the portion of the video that is saved to disk",
+                    "note3": "Edge values are zero indexed",
+					"leftEdge": 0,
+					"topEdge": 0,
+					"width": 1024,
+					"height": 768
+				},
+                "cameraCalibrationFileLocation": "",
+                "compressionOptions": ["MJPG","MJ2C","XVID","FFV1"],
+                "compression": "XVID",
+                "framesPerFile": 1000,
+                "windowScale": 0.75,
+                "windowX": 800,
+                "windowY": 600
+            }
+        ]
+    }
+}
