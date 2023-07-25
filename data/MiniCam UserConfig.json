@@ -32,6 +32,7 @@
                 "deviceType": "Minicam-Mono-XGA",
                 "deviceID": 0,
 				"showSaturation": false,
+                "led0": 100,
 				"ROI": {
                     "notes": "This defines the bounding box of the portion of the video that is saved to disk",
                     "note3": "Edge values are zero indexed",
@@ -43,7 +44,7 @@
                 "cameraCalibrationFileLocation": "",
                 "compressionOptions": ["MJPG","MJ2C","XVID","FFV1"],
                 "compression": "XVID",
-                "framesPerFile": 1000,
+                "framesPerFile": 36000,
                 "windowScale": 0.75,
                 "windowX": 800,
                 "windowY": 600
