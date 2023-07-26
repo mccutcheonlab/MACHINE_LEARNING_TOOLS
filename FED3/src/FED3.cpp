@@ -1400,7 +1400,7 @@ void FED3::SetDeviceNumber() {
           PelletType += 1;
           Click();
           EndTime = millis();
-          if (PelletType > 6) {
+          if (PelletType > 7) {
             PelletType = 1;
           }
         }
@@ -1409,7 +1409,7 @@ void FED3::SetDeviceNumber() {
           Click();
           EndTime = millis();
           if (PelletType < 1) {
-            PelletType = 6;
+            PelletType = 7;
           };
         }
         if (millis() - EndTime > 3000) {  // if 3 seconds passes confirm time settings
@@ -1450,8 +1450,11 @@ String FED3::FigureToPellet(int a){
   if (a==5) {
     return ("SU");
   }
+  if (a==6) {
+    return ("GR");
+  }
   else {
-    return ("GR");//if a==6
+    return ("__");//if a==7
   }
 }
 
