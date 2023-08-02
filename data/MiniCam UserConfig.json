@@ -44,7 +44,7 @@
                 "cameraCalibrationFileLocation": "",
                 "compressionOptions": ["MJPG","MJ2C","XVID","FFV1"],
                 "compression": "XVID",
-                "framesPerFile": 36000,
+                "framesPerFile": 50000,
                 "windowScale": 0.75,
                 "windowX": 800,
                 "windowY": 600
