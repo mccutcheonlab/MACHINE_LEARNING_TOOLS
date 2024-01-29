@@ -1,5 +1,5 @@
 # MACHINE_LEARNING_TOOLS
- ### <font color = "red"> This readme file is Under Construction</font>
+ ### <font color = "red"> This readme file is <sub>Under</sub> Construction</font>
 
  This repository was created through a collaboration between McCutcheon Lab at UiT and NDF at DIfE and is meant to serve as a place to store and share scripts, data, training models, etc used for tracking animals or evaluating behavioural videos via DLC, SIMBA, SLEAP and other potential machine learning tools. 
 
@@ -29,6 +29,9 @@
 
 ###### 6 After a while the environment is created, swtich to you newly created environment using the command below:
             conda activate DeepLabCut
+
+
+
 ###### 7 Now you will notice that in your terminal, instead of ***(base) c:/*** you are located in ***(DeepLabCut) c:/***
 
 ###### 8 At this stage, you will need to install some necessary packages on your virtual environment before running DLC as follows, run one by one:
@@ -55,7 +58,7 @@
 ##### 11 Two ways to run DLC from your virtual environment:
 * Use the command in the terminal to directly run the GUI:
     
-                    python -m deeplabcut
+            python -m deeplabcut
 A new window will appear.
 
 * Use Jupyter Lab or notebook, i.e type the command below in the terminal (DeepLabCut) c:/>
