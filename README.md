@@ -14,8 +14,8 @@
 
 ###### 1 Install [Anaconda](https://www.anaconda.com/download) on the local machine(a technical term for "your computer")
 
-###### 2 Run the Anaconda prompt as admistrator (*especially on Windows, DLC requiers admin rights to run properly*)
- * In case the pathway shown at the terminal is /system32 , it is recommended to swtich to the root of the directory via CD command, i.e. cd c\
+###### 2 Run the Anaconda prompt as administrator (*especially on Windows, DLC requires admin rights to run properly*)
+ * In case the pathway shown at the terminal is /system32 , it is recommended to switch to the root of the directory via CD command, i.e. cd c\
 
 ###### 3 Lets first check the version of Conda and if it is not the latest version you can use the command below to upgrade it
             conda update -n base -c defaults conda
@@ -27,7 +27,7 @@
             conda create --name DeepLabCut python=3.8
 <font color= "blue">*note: instead of DeepLabCut you can use any other name* </font>
 
-###### 6 After a while the environment is created, swtich to you newly created environment using the command below:
+###### 6 After a while the environment is created, switch to you newly created environment using the command below:
             conda activate DeepLabCut
 
 
